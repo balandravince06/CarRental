@@ -1,0 +1,78 @@
+<div class="login-page">
+    <mat-card class="mat-elevation-z12">
+      <mat-card-title style="text-align:center;">Car Rental</mat-card-title>
+      <mat-tab-group mat-stretch-tabs class="example-stretched-tabs">
+        <mat-tab label="Admin">
+            <mat-card-content>
+              <form action="">
+                <mat-form-field>
+                  <input
+                    matInput
+                    placeholder="Username"
+                    name="username"
+                    ngModel
+                    #email="ngModel">
+                    
+                </mat-form-field>
+                <mat-form-field>
+                  <input
+                    matInput
+                    placeholder="Password"
+                    type="password"
+                   
+                    name="password"
+                    ngModel
+                    #password="ngModel">
+                  
+                
+                </mat-form-field>
+            
+                <button
+                  mat-raised-button
+                  color="primary"
+                  class="login-button">
+                  Sign In
+                </button>
+  
+               
+              </form>
+            </mat-card-content>
+        </mat-tab>
+        <mat-tab label="User">
+          <mat-card-content>
+            <form action="">
+              <mat-form-field>
+                <input
+                  matInput
+                  placeholder="Username"
+                 
+                  name="username"
+                  ngModel
+                  #username="ngModel">
+              
+              </mat-form-field>
+        
+              <mat-form-field>
+                <input
+                  matInput
+                  placeholder="Password"
+                  type="password"
+                  name="password"
+                  ngModel
+                  #password="ngModel">
+                
+              </mat-form-field>
+            
+              <button
+                mat-raised-button
+                color="primary"
+                class="login-button">
+                Sign In
+              </button>
+            </form>
+          </mat-card-content>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-card>
+  </div>
+  
